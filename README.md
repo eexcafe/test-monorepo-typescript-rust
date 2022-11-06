@@ -4,8 +4,6 @@ Pnpm workspaces based monorepo with essential configs and things.
 
 ## Info -
 
-- Athena - Frontend Vite App
-- Gaia - Backend Rust Server using actix-web
 - Hera - Frontend NextJS App
 - Libs/Ui - Simple UI components
 - Libs/Logger - Logger can be added
@@ -17,7 +15,9 @@ All packages/apps needs to be started with `@core`/package-name in order to keep
 ```sh
 pnpm install
 ```
+
 To run the @gaia crate
+
 ```sh
 cargo install cargo-watch 
 ```
@@ -27,10 +27,13 @@ cargo install cargo-watch
 ### Athena - Frontend Vite App
 
 - Directly
-  ```
+
+  ```sh
   pnpm athena dev
   ```
+
 - Through Turborepo
+
   ```sh
   pnpm athena:dev
   ```
@@ -38,10 +41,13 @@ cargo install cargo-watch
 ### Hera - Frontend NextJS App
 
 - Directly
-  ```
+
+  ```sh
   pnpm hera dev
   ```
+
 - Through Turborepo
+
   ```sh
   pnpm hera:dev
   ```
@@ -50,7 +56,7 @@ cargo install cargo-watch
 
 - Directly
 
-  ```
+  ```shell
   pnpm gaia:dev
   ```
 
